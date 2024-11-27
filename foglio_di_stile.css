@@ -1,0 +1,14 @@
+
+	.prova {
+		border: 1px solid black;
+		height: 100px;
+		width: 100px;
+		margin: 20px;
+		transition: background-color 0.2s;
+		transition-delay: 0.1s;
+	}
+
+	.prova:hover {
+		background-color: red;
+	}
+

@@ -1,0 +1,81 @@
+/************ SELETTORI POSSIBILI ****************/
+
+/**** SELETTORE DI TIPO *****/
+article {
+	font-size: 50px;
+}
+
+/**** SELETTORE DI CLASSE *****/
+.titolo {
+	width: 30vw;
+}
+
+/**** SELETTORE DI ID *****/
+#nome {
+	font-size: 70px;
+}
+
+/**** SELETTORE DI UNIVERSALE *****/
+* {
+	/* color: red; */
+}
+
+/**** SELETTORE DI PSEUDO-CLASSE *****/
+button:hover {
+  color: blue;
+}
+
+/**** GERARCHIA DI SELETTORE *****/
+/**** " " discendenza *****/
+div li {
+  color: rgb(5% 3% 20% / 70%);
+  height: auto;
+}
+
+/**** ">" parentela *****/
+div > li {
+  color: blue;
+}
+
+/**** "+" fratellanza *****/
+p + li {
+  color: white;
+}
+
+a[title=Esempio]{
+	font-size: 2px;
+}
+
+.container {
+	background-color: beige;
+	margin: 70px 20px;
+	padding: 40px 10px 30px 90px;
+	border: 5px solid rgb(5% 3% 20% / 70%);
+	border-radius: 10px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 200px;
+	width: 400px;
+	align-content: space-around;
+	column-gap: 20px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 3s, border-radius 1s, background 2s;
+  transition-delay: 1s;
+}
+
+div:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background: green;
+  transform: rotate(120deg);
+}
