@@ -4,11 +4,14 @@
 	<meta charset="utf-8">
 	<title>PRIMA PAGINA WEB</title>
 	<script type="text/javascript">
-		
+
 		document.addEventListener("DOMContentLoaded", ready);
-		
+
+		function test(){
+			alert('ciao');
+		}
 		function ready(){
-			
+
 			const persona = {
 				nome: "silvio",
 				cognome: "troia",
@@ -30,7 +33,7 @@
 			persona.nome = "peppino";
 			persona.altezza = "1,60 cm";
 
-			console.log(persona.fullName());	
+			console.log(persona.fullName());
 			console.log(persona);
 
 			// function asincrona(){
@@ -77,7 +80,7 @@
 
 			getData();
 
-			let jsonUser = {   
+			let jsonUser = {
 							   "name": "TEST",
 							   "username": "Test",
 							   "email": "Sincere@april.biz",
@@ -100,7 +103,7 @@
 			    });
 
 			    const oggettoRisposta = await response.json();
-			    
+
 			    return oggettoRisposta;
 			}
 
