@@ -19,4 +19,5 @@
 + git branch -d new_features (cancellazione branch locale)
 + git push -d origin new_features (cancellazione branch remoto)
 + git merge new_features (effettua il merge tra il branch corrente con il branch new_features)
++ git show (Mostra uno o più oggetti (blob, alberi, tag e commit))
 + ..........
