@@ -71,6 +71,7 @@ div {
   background: red;
   transition: width 2s, height 2s, transform 3s, border-radius 1s, background 2s;
   transition-delay: 1s;
+  overflow:scroll;
 }
 
 div:hover {
@@ -79,4 +80,16 @@ div:hover {
   border-radius: 20px;
   background: green;
   transform: rotate(120deg);
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;	
+}
+.description {
+  font-size: 15px;
+  text-align: center;	
+}
+.paragrafo1 {
+  margin-top: 20px;
 }
