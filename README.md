@@ -20,3 +20,4 @@
 + git push -d origin new_features (cancellazione branch remoto)
 + git merge new_features (effettua il merge tra il branch corrente con il branch new_features)
 + ..........
++ Potete fare le modifiche a questo progetto anche da Git Bash sul vostro Pc Windows
