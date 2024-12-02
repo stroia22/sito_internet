@@ -21,3 +21,4 @@
 + git merge new_features (effettua il merge tra il branch corrente con il branch new_features)
 + git show (Mostra uno o più oggetti (blob, alberi, tag e commit))
 + ..........
++ Potete fare le modifiche a questo progetto anche da Git Bash sul vostro Pc Windows
