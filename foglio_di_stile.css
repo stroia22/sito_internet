@@ -3,7 +3,8 @@
 		border: 1px solid black;
 		height: 100px;
 		width: 100px;
-		margin: 20px;
+		margin: 40px;
+		padding: 40px;
 		transition: background-color 0.2s;
 		transition-delay: 0.1s;
 	}
