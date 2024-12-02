@@ -12,3 +12,10 @@
 		background-color: red;
 	}
 
+
+	h1 {
+		color: red;
+		text-decoration: uppercase;
+		font-size: 50px;
+	}
+
