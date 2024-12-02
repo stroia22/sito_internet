@@ -18,4 +18,5 @@
 + git push --set-upstream origin main (mettere su remote il branch (si può usare -u al posto di --set-upstream))
 + git branch -d new_features (cancellazione branch locale)
 + git push -d origin new_features (cancellazione branch remoto)
-+ git merge new_fratures (effettua il merge tra il branch corrente con il branch new_features)
++ git merge new_features (effettua il merge tra il branch corrente con il branch new_features)
++ ..........
